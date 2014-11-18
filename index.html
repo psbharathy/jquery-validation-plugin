@@ -25,10 +25,10 @@ and open the template in the editor.
     <body>
         <div id="validateForm" data-error-class="errors" data-inline-error="true">
             <div>
-                Name : <input type="text" name="name" id="name" data-validate="[required]" />
+                Name : <input type="text" name="name" id="name" data-error-message="[Value Required]" data-validate="[required]" />
             </div>
             <div>
-                Email : <input type="text" name="email" id="email" data-validate="[required, email]" />
+                Email : <input type="text" name="email" id="email" data-error-message="[Value Required, Invalid Email]" data-validate="[required, email]" />
             </div>
             <div>
                 Number : <input type="text" name="number" id="number" data-validate="[required, numeric]" />
